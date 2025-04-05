@@ -90,7 +90,7 @@ case 1:{
     cin>>newfriend;
 if(cin.good()){//if data type is right
         if(find(wierdnames,wierdnames+arraySize,newfriend)!=wierdnames+arraySize){//checks to see if string is an animal name using find to compare to weird array
-                cout<<"animals are not your friends bro!!"<<endl;
+                cout<<"wierd things are not your friends bro!!"<<endl;
                 cin.clear();
 cin.ignore(numeric_limits<streamsize>::max(),'\n');
             }else{
@@ -116,7 +116,7 @@ case 2:{
     cin>>oldfriend;
     if(cin.good()){//if its the right data type
             if(find(wierdnames,wierdnames+arraySize,oldfriend)!=wierdnames+arraySize){
-                cout<<"animals are not your friends bro!!"<<endl;
+                cout<<"wierd things are not your friends bro!!"<<endl;
                 cin.clear();
 cin.ignore(numeric_limits<streamsize>::max(),'\n');
 }else{
